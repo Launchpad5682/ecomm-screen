@@ -1,0 +1,91 @@
+@import url(./global.css);
+
+.body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 20% 80%;
+  grid-template-areas: "header header" "aside main";
+}
+
+.header--grid {
+  grid-area: header;
+}
+
+.aside--grid {
+  grid-area: aside;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.main--grid {
+  grid-area: main;
+  overflow: auto;
+}
+
+.filter--heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter__input--options {
+  display: flex;
+  align-items: center;
+}
+
+.filter--elements {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+@media screen and (max-width: 1000px) {
+  .body {
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "main";
+  }
+
+  .aside--grid {
+    display: none;
+  }
+}
+
+.shopping--card {
+  height: 45rem;
+  max-height: 45rem;
+}
+
+.item--image {
+  min-height: 05rem;
+  height: 30rem;
+  max-height: 30rem;
+}
+
+.img--fitheight {
+  height: 100%;
+}
+
+.card--detail {
+  padding: 3px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card--btns {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-btn {
+  width: 100%;
+}
+
+.card--price {
+  display: flex;
+  gap: 4px;
+}
