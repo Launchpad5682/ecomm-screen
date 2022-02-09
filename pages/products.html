@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/products.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="body">
+    <header class="header header--dark header--grid">
+      <span class="logo">
+        <img src="../../assets/logo.png" alt="" class="logo--img" />
+        <h6 class="h4__typography typography--white header__title">
+          Calm Shop
+        </h6></span
+      >
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <button class="badge__icon badge__icon--blue">
+            <span class="badge__icon--counter icon__counter--pink">100</span>
+            <span class="fa fa-heart" />
+          </button>
+          <button class="badge__icon badge__icon--blue">
+            <span class="fa fa-shopping-cart" />
+          </button>
+          <button class="badge__icon badge__icon--blue">
+            <span class="fa fa-user" />
+          </button>
+        </ul>
+      </nav>
+    </header>
+    <aside class="aside--grid padding--sm">
+      <div class="filter--heading">
+        <span class="subtitle2__typography typography--black bold--typography"
+          >Filters</span
+        >
+        <span
+          class="subtitle1__typography typography--black underline--typography"
+          >Clear</span
+        >
+      </div>
+      <div class="filter--elements">
+        <span class="subtitle2__typography typography--black bold--typography"
+          >Price</span
+        >
+        <div class="slider__container">
+          <input
+            type="range"
+            name=""
+            value="50"
+            id="input--slider"
+            class="input__slider input__slider--blue"
+          />
+          <div class="slider__label">
+            <span class="subtitle1__typography typography typography--black"
+              >100</span
+            >
+            <span
+              class="subtitle1__typography typography typography--black"
+              id="slider-current-value"
+              >500</span
+            >
+            <span class="subtitle1__typography typography typography--black"
+              >1000</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="filter--elements">
+        <span class="subtitle2__typography typography--black bold--typography"
+          >Category</span
+        >
+        <div class="filter__input--options">
+          <input type="checkbox" name="" id="" />
+          <label class="subtitle1__typography typography--black"
+            >Philosophy</label
+          >
+        </div>
+        <div class="filter__input--options">
+          <input type="checkbox" name="" id="" />
+          <label class="subtitle1__typography typography--black">History</label>
+        </div>
+        <div class="filter__input--options">
+          <input type="checkbox" name="" id="" />
+          <label class="subtitle1__typography typography--black"
+            >Human Behavioural Biology</label
+          >
+        </div>
+        <div class="filter__input--options">
+          <input type="checkbox" name="" id="" />
+          <label class="subtitle1__typography typography--black"
+            >Psychiatry</label
+          >
+        </div>
+      </div>
+      <div class="filter--elements">
+        <span class="subtitle2__typography typography--black bold--typography"
+          >Rating</span
+        >
+        <div class="filter__input--options">
+          <input type="radio" name="" id="" />
+          <label class="subtitle1__typography typography--black"
+            >4 Stars & above</label
+          >
+        </div>
+        <div class="filter__input--options">
+          <input type="radio" name="" id="" />
+          <label class="subtitle1__typography typography--black"
+            >3 Stars & above</label
+          >
+        </div>
+        <div class="filter__input--options">
+          <input type="radio" name="" id="" />
+          <label class="subtitle1__typography typography--black"
+            >2 Stars & above</label
+          >
+        </div>
+        <div class="filter__input--options">
+          <input type="radio" name="" id="" />
+          <label class="subtitle1__typography typography--black"
+            >1 Stars & above</label
+          >
+        </div>
+      </div>
+      <div class="filter--elements">
+        <span class="subtitle2__typography typography--black bold--typography"
+          >Sort by</span
+        >
+        <div class="filter__input--options">
+          <input type="radio" name="" id="" />
+          <label class="subtitle1__typography typography--black"
+            >Price - Low to High</label
+          >
+        </div>
+        <div class="filter__input--options">
+          <input type="radio" name="" id="" />
+          <label class="subtitle1__typography typography--black"
+            >Price - High to Low</label
+          >
+        </div>
+      </div>
+    </aside>
+    <main class="main--grid padding--sm">
+      <div>
+        <span class="subtitle2__typography typography--black bold--typography">
+          Show all Products
+        </span>
+      </div>
+      <div class="grid-4-item padding--sm--vertical">
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/01.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/02.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/03.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/04.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/05.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/06.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/07.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/08.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/09.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/10.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/11.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/12.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/13.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/14.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
+        >
+          <div class="item--image">
+            <img
+              src="../assets/15.jpg"
+              class="image--fitwidth img--fitheight"
+            />
+          </div>
+          <div class="card--detail">
+            <div class="">
+              <span class="h6__typography typography--black bold--typography">
+                The Alchemist
+              </span>
+              <span class="subtitle1__typography typography--black"
+                >Paulo Coelho
+              </span>
+              <div class="card--price">
+                <span
+                  class="subtitle1__typography typography--black bold--typography"
+                  >Rs 500
+                </span>
+                <span
+                  class="subtitle1__typography typography--black strike__line"
+                  >800</span
+                >
+              </div>
+            </div>
+            <div class="card--btns">
+              <button
+                class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-heart icon__typography typography--blue"
+                ></span>
+                <span class="subtitle1__typography typography--blue"
+                  >Add to wishlist</span
+                >
+              </button>
+              <button
+                class="button--sm button__solid button--blue button__rounded--md card-btn bold--typography"
+              >
+                <span
+                  class="fa fa-shopping-cart icon__typography typography--white"
+                ></span>
+                <span
+                  class="subtitle1__typography typography--white bold--typography"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js" async defer></script>
+  </body>
+</html>
