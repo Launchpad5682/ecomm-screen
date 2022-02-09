@@ -21,7 +21,7 @@
 
 .main--grid {
   grid-area: main;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .filter--heading {
