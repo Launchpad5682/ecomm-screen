@@ -1,0 +1,77 @@
+@import url(./global.css);
+
+.main__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 100%;
+}
+
+.card-btn {
+  width: 100%;
+}
+
+.card--details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 6px;
+  gap: 5px;
+}
+
+.card--heading {
+  display: flex;
+  column-gap: 10px;
+}
+
+.quantity--container {
+  display: flex;
+  column-gap: 10px;
+}
+
+.quantity--input {
+  min-width: 5px;
+  max-width: 30px;
+  outline: none;
+}
+
+.quantity--btn {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  font-weight: 900;
+}
+
+.btn--container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 5px;
+}
+
+.cart--detail {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.border--bottom {
+  border-bottom: 2px solid black;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+}
+
+.price--item {
+  display: flex;
+  justify-content: space-between;
+}
