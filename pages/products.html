@@ -49,10 +49,18 @@
         <span class="subtitle2__typography typography--black bold--typography"
           >Filters</span
         >
-        <span
-          class="subtitle1__typography typography--black underline--typography"
-          >Clear</span
-        >
+        <div class="close--clear">
+          <span
+            class="subtitle1__typography typography--black underline--typography"
+            >Clear</span
+          >
+          <span
+            class="icon__typography typography--black filter--btn"
+            id="close--filter"
+          >
+            <span class="fa fa-close"></span
+          ></span>
+        </div>
       </div>
       <div class="filter--elements">
         <span class="subtitle2__typography typography--black bold--typography"
@@ -156,10 +164,16 @@
       </div>
     </aside>
     <main class="main--grid padding--sm">
-      <div>
-        <span class="subtitle2__typography typography--black bold--typography">
+      <div class="subheading">
+        <span class="h5__typography typography--black bold--typography">
           Show all Products
         </span>
+        <button
+          class="button--sm button__nav button--red button__rounded--sm button__nav--black filter--btn"
+          id="open--filter"
+        >
+          <span class="button__typography typography--black">Filter</span>
+        </button>
       </div>
       <div class="grid-4-item padding--sm--vertical">
         <div
@@ -959,6 +973,7 @@
         </div>
       </div>
     </main>
+    <script src="../js/filter.js" async defer></script>
     <script src="index.js" async defer></script>
   </body>
 </html>
