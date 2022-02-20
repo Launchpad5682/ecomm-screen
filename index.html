@@ -12,7 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body>
+  <body class="body--section">
     <header class="header header--dark">
       <span class="logo">
         <img src="./assets/logo.png" alt="" class="logo--img" />
@@ -20,7 +20,11 @@
           Calm Shop
         </h6></span
       >
-      <nav class="header__nav">
+      <div class="search__container">
+        <input type="text" name="" id="" class="search__input" />
+        <span class="search__btn"><span class="fa fa-search"></span></span>
+      </div>
+      <nav class="">
         <ul class="nav__list">
           <button class="badge__icon badge__icon--blue">
             <span class="badge__icon--counter icon__counter--pink">100</span>
@@ -32,6 +36,11 @@
           <button class="badge__icon badge__icon--blue">
             <span class="fa fa-user" />
           </button>
+          <button
+            class="button--sm button__solid button--blue button__rounded--lg"
+          >
+            <span class="button__typography typography--white">Logout</span>
+          </button>
         </ul>
       </nav>
     </header>
@@ -39,13 +48,22 @@
       <div class="img--tagline">
         <img
           src="https://images.unsplash.com/photo-1525720171842-a4992f22f70d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTgwfHxib29rcyUyMGFuZCUyMGVubGlnaHRlbm1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
-          alt=""
+          alt="cover_img"
           class="image__fit"
         />
       </div>
-      <span class="h4__typography typography--white tagline"
-        >A store to get all the books for mindful development</span
-      >
+      <div class="tagline">
+        <span class="h5__typography typography--white"
+          >A store to get all the books for mindful development</span
+        >
+        <button
+          class="button--lg button__solid button--blue button__rounded--lg"
+        >
+          <span class="button__typography typography--white"
+            >Explore <span class="fa fa-arrow-right"></span
+          ></span>
+        </button>
+      </div>
     </div>
     <main class="main__section padding--sm">
       <h4 class="h4__typography center__typography">Categories</h4>
