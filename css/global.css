@@ -98,3 +98,7 @@
     flex-grow: 1;
   }
 }
+
+.full__width--btn {
+  width: 100%;
+}
