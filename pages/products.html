@@ -20,7 +20,11 @@
           Calm Shop
         </h6></span
       >
-      <nav class="header__nav">
+      <div class="search__container">
+        <input type="text" name="" id="" class="search__input" />
+        <span class="search__btn"><span class="fa fa-search"></span></span>
+      </div>
+      <nav class="">
         <ul class="nav__list">
           <button class="badge__icon badge__icon--blue">
             <span class="badge__icon--counter icon__counter--pink">100</span>
@@ -32,6 +36,11 @@
           <button class="badge__icon badge__icon--blue">
             <span class="fa fa-user" />
           </button>
+          <button
+            class="button--sm button__solid button--blue button__rounded--lg"
+          >
+            <span class="button__typography typography--white">Logout</span>
+          </button>
         </ul>
       </nav>
     </header>
@@ -40,10 +49,18 @@
         <span class="subtitle2__typography typography--black bold--typography"
           >Filters</span
         >
-        <span
-          class="subtitle1__typography typography--black underline--typography"
-          >Clear</span
-        >
+        <div class="close--clear">
+          <span
+            class="subtitle1__typography typography--black underline--typography"
+            >Clear</span
+          >
+          <span
+            class="icon__typography typography--black filter--btn"
+            id="close--filter"
+          >
+            <span class="fa fa-close"></span
+          ></span>
+        </div>
       </div>
       <div class="filter--elements">
         <span class="subtitle2__typography typography--black bold--typography"
@@ -147,10 +164,16 @@
       </div>
     </aside>
     <main class="main--grid padding--sm">
-      <div>
-        <span class="subtitle2__typography typography--black bold--typography">
+      <div class="subheading">
+        <span class="h5__typography typography--black bold--typography">
           Show all Products
         </span>
+        <button
+          class="button--sm button__nav button--red button__rounded--sm button__nav--black filter--btn"
+          id="open--filter"
+        >
+          <span class="button__typography typography--black">Filter</span>
+        </button>
       </div>
       <div class="grid-4-item padding--sm--vertical">
         <div
@@ -950,6 +973,7 @@
         </div>
       </div>
     </main>
+    <script src="../js/filter.js" async defer></script>
     <script src="index.js" async defer></script>
   </body>
 </html>

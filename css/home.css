@@ -21,6 +21,9 @@
   grid-row: 4/-1;
   grid-column: 3/-1;
   padding: var(--padding-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 860px) {
@@ -45,9 +48,6 @@
 }
 
 @media screen and (max-width: 470px) {
-  .image__container {
-    height: 20rem;
-  }
   .tagline {
     grid-column: 1/-1;
   }
