@@ -20,6 +20,10 @@
   flex-direction: column;
 }
 
+.padding--xs {
+  padding: var(--padding-xs);
+}
+
 .padding--sm {
   padding: var(--padding-sm);
 }
@@ -38,10 +42,11 @@
 }
 
 .main__section {
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
   display: flex;
   flex-direction: column;
   width: 100%;
+  overflow-y: auto;
 }
 
 .logo {
@@ -83,6 +88,8 @@
   border: none;
   width: 100%;
   border-radius: var(--border-radius-search) 0 0 var(--border-radius-search);
+  padding: 0 1rem;
+  font-size: 1.6rem;
 }
 
 @media screen and (max-width: 900px) {
