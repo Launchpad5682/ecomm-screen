@@ -12,7 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body>
+  <body class="body--section">
     <header class="header header--dark">
       <span class="logo">
         <img src="../../assets/logo.png" alt="" class="logo--img" />
@@ -20,7 +20,11 @@
           Calm Shop
         </h6></span
       >
-      <nav class="header__nav">
+      <div class="search__container">
+        <input type="text" name="" id="" class="search__input" />
+        <span class="search__btn"><span class="fa fa-search"></span></span>
+      </div>
+      <nav class="">
         <ul class="nav__list">
           <button class="badge__icon badge__icon--blue">
             <span class="badge__icon--counter icon__counter--pink">100</span>
@@ -32,10 +36,16 @@
           <button class="badge__icon badge__icon--blue">
             <span class="fa fa-user" />
           </button>
+          <button
+            class="button--sm button__solid button--blue button__rounded--lg"
+          >
+            <span class="button__typography typography--white">Logout</span>
+          </button>
         </ul>
       </nav>
     </header>
-    <main class="main__section padding--sm">
+    <div class="h4__typography center__typography padding--xs">Wishlist</div>
+    <main class="main__section">
       <div class="grid-5-items">
         <div
           class="card__flexcolumn card__flexcolumn--md card__border--black shopping--card"
@@ -70,10 +80,10 @@
                 class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
               >
                 <span
-                  class="fa fa-heart icon__typography typography--blue"
+                  class="fa fa-trash icon__typography typography--blue"
                 ></span>
                 <span class="subtitle1__typography typography--blue"
-                  >Add to wishlist</span
+                  >Remove from wishlist</span
                 >
               </button>
               <button
@@ -123,10 +133,10 @@
                 class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
               >
                 <span
-                  class="fa fa-heart icon__typography typography--blue"
+                  class="fa fa-trash icon__typography typography--blue"
                 ></span>
                 <span class="subtitle1__typography typography--blue"
-                  >Add to wishlist</span
+                  >Remove from wishlist</span
                 >
               </button>
               <button
@@ -177,10 +187,10 @@
                 class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
               >
                 <span
-                  class="fa fa-heart icon__typography typography--blue"
+                  class="fa fa-trash icon__typography typography--blue"
                 ></span>
                 <span class="subtitle1__typography typography--blue"
-                  >Add to wishlist</span
+                  >Remove from wishlist</span
                 >
               </button>
               <button
@@ -231,10 +241,10 @@
                 class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
               >
                 <span
-                  class="fa fa-heart icon__typography typography--blue"
+                  class="fa fa-trash icon__typography typography--blue"
                 ></span>
                 <span class="subtitle1__typography typography--blue"
-                  >Add to wishlist</span
+                  >Remove from wishlist</span
                 >
               </button>
               <button
@@ -285,10 +295,10 @@
                 class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
               >
                 <span
-                  class="fa fa-heart icon__typography typography--blue"
+                  class="fa fa-trash icon__typography typography--blue"
                 ></span>
                 <span class="subtitle1__typography typography--blue"
-                  >Add to wishlist</span
+                  >Remove from wishlist</span
                 >
               </button>
               <button
@@ -339,10 +349,10 @@
                 class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon card-btn bold--typography"
               >
                 <span
-                  class="fa fa-heart icon__typography typography--blue"
+                  class="fa fa-trash icon__typography typography--blue"
                 ></span>
                 <span class="subtitle1__typography typography--blue"
-                  >Add to wishlist</span
+                  >Remove from wishlist</span
                 >
               </button>
               <button
