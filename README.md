@@ -1,17 +1,16 @@
-<center>
-<img src="./assets/logo.png" height="80"/>
-</center>
-<center>
-<h1>Calm Shop</h1>
-</center>
 
-<center><h2> An e-commerce store of books for mindful development</h2></center>
+<p align="center"><img src="./assets/logo.png" height="80"/></p>
 
-<center>
+<h1 align="center">Calm Shop</h1>
+
+
+<h2 align="center"> An e-commerce store of books for mindful development</h2>
+
+<p align="center">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
-</center>
+</p>
 
 Live link: [Link](https://ecomm-screens.netlify.app/pages/products)
 
@@ -53,5 +52,6 @@ Live link: [Link](https://ecomm-screens.netlify.app/pages/products)
 
 ### [User Profile Page](https://ecomm-screens.netlify.app/pages/user-profile.html)
 <img src="./screenshots/user-profile.png" />
+
 ### [Wishlist Page](https://ecomm-screens.netlify.app/pages/wishlist.html)
 <img src="./screenshots/wishlist.png" />
